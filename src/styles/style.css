@@ -311,5 +311,19 @@ footer .footer-bottom .right .right-lan i {
   border: black 1px solid;
   width: 650px;
   height: 650px;
+  background-image: url("../pic/cookie.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.main .main-wrap .row .section-l .img-thumbs .thumb img {
+  width: 51px;
+  height: 51px;
+}
+
+.main .main-wrap .row .section-r {
+  height: 600px;
+  width: 50%;
 }
 /*# sourceMappingURL=style.css.map */

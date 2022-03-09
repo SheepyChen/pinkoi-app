@@ -5,16 +5,31 @@
         width: 100%;
         margin: 0 auto;
         .row{
-            display: flex;
+            display:flex ;
             .section-l{
+                
                 .item-img{
                     border: black 1px solid;
                     width: 650px;
                     height: 650px;
-                    // background-repeat: no-repeat;
-                    // background-position: center;
-                    // background-size: contain;
+                    background-image: url('../pic/cookie.jpg');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: contain;
                 }
+                .img-thumbs{
+                    .thumb{
+                        img{ 
+                        width: 51px;
+                        height: 51px;
+                        }
+                    }
+                }
+            }
+            
+            .section-r{
+                height: 600px;
+                width: 50%;
             }
         }
     }

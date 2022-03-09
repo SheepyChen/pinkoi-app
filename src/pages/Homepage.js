@@ -3,7 +3,6 @@ import Search from '../conponents/Search';
 import Picture from '../conponents/Picture';
 
 
-
 const Homepage = () => {
     const [input, setInput] = useState("");
     let [data, setData] = useState(null);
