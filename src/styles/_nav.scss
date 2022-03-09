@@ -1,0 +1,78 @@
+header{
+    padding: 24px;
+    .header-wrap{
+        max-width: 1200px;
+        min-width: 1000px;
+        width: 100%;
+        margin: 0 auto;
+    .header-top{
+        display: flex;
+        justify-content: space-between;
+        .header-left{
+            display: flex;
+            .logo{
+            cursor: pointer;
+            width: 128px;
+            height: 45px;
+            background-image: url('../pic/pinkoi.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            margin-right: 24px;
+            }
+            .header-search{
+            display: inline-block;
+            .search-text{
+                width: 25vw;
+                padding: 6px 32px 5px 14px;
+                line-height: 1.4;
+                border: 1px solid #d3d3d5;
+                font-size: 1rem;
+                background: #fff;
+                color: #39393e;
+                border-radius: 2px 0 0 2px;
+                border-right: none;
+                
+            }
+            .voice-icon{
+                cursor: pointer;
+                border: 1px solid #d3d3d5;
+                border-right: none;
+                border-left:none;
+                padding: 7.3px 4px 7.3px 12px;
+            }
+            .submit{
+                width: 70px;
+                padding: 12px 6px 9px;
+                background: #10567b;
+                color: white;
+                cursor: pointer;
+                border-radius: 0 2px 2px 0;
+                line-height: 1;
+                border:none;
+                
+            }
+            .trend{
+                font-size: 0.9rem;
+                position: relative;
+                margin-top: 6px;
+                a{
+                    margin-right:14px ;
+                }
+            }
+        }
+        }
+        .header-right{
+            display: flex;
+            font-size: 1.5rem;
+            
+            .icon{
+                padding: 6px;
+                margin-right: 18px;
+                color: rgb(102, 102, 102);
+                
+            }
+        }
+    }
+}
+}

@@ -1,0 +1,21 @@
+.main{
+    .main-wrap{
+        max-width: 1200px;
+        min-width: 1000px;
+        width: 100%;
+        margin: 0 auto;
+        .row{
+            display: flex;
+            .section-l{
+                .item-img{
+                    border: black 1px solid;
+                    width: 650px;
+                    height: 650px;
+                    // background-repeat: no-repeat;
+                    // background-position: center;
+                    // background-size: contain;
+                }
+            }
+        }
+    }
+}

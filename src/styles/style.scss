@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica Neue,Helvetica,Arial,PingFang TC,Heiti TC,Microsoft JhengHei,sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style-type: none;
+}
+.morePicture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    button{
+        padding: 0.25rem;
+        font-size: 2rem;
+        border: none;
+        background-color:wheat; 
+        color:blueviolet;
+        cursor: pointer;
+    }
+
+}
+@import "./nav";
+@import "./search";
+@import "./footer";
+@import "./_picture";
+@import "./about";
