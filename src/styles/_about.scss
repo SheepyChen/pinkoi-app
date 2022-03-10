@@ -1,36 +1,150 @@
 .main{
     .main-wrap{
         max-width: 1200px;
-        min-width: 1000px;
+        
         width: 100%;
         margin: 0 auto;
         .row{
             display:flex ;
+            
             .section-l{
+                width:60vw;
+                
+                
                 
                 .item-img{
-                    border: black 1px solid;
-                    width: 650px;
-                    height: 650px;
-                    background-image: url('../pic/cookie.jpg');
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: contain;
+                    width:50vw;
+                    background-color: rgb(209, 209, 209);
+                    height: 50vw;
+                    .img{
+                        margin: 16.5% 0;
+                        width: 50vw;
+                        height: auto;
+                        
+                    }
+                    
                 }
                 .img-thumbs{
+                    margin: 5% 10%;
                     .thumb{
+                        margin-right:10px ;
                         img{ 
                         width: 51px;
                         height: 51px;
                         }
                     }
                 }
-            }
-            
-            .section-r{
-                height: 600px;
-                width: 50%;
+                .item-description{
+                    img{
+                        width: 100px;
+                        height: 100px;
+                    }
+                }
+                .item-info{
+                    dl{
+                        padding-top: 24px;
+                    
+                    .info{
+                        display: flex;
+                        dt{
+                            width: 40%;
+                            color: rgb(146, 146, 146);
+                            
+                        }
+                        dd{
+                            width: 60%;
+                            justify-content: flex-start;
+                            
+                        }
+                    }
+                }
+                }
+                .food-info{
+                    dl{
+                        padding-top: 24px;
+                    
+                    .info{
+                        display: flex;
+                        dt{
+                            width: 40%;
+                            color: rgb(146, 146, 146);
+                        }
+                        dd{
+                            width: 60%;
+                            justify-content: flex-start;
+                            
+                        }
+                    }
+                }
             }
         }
+            
+            .section-r{
+                width: 40vw;
+                height: 80vh;
+                margin-left:5%;
+                .item-title{
+                    font-size: 1.625rem;
+                    word-spacing: 0.025em;
+                    letter-spacing:0.65px;
+                    line-height: 1.4;
+                    font-weight: 700;
+                    margin-bottom: 14px;
+                    color: #39393e;
+                }
+                .item-review{
+                    margin: 14px 0;
+                    :nth-child(5){
+                        margin-right: 10px;
+                    }
+                    i{
+                        color:rgb(241, 108, 93);
+                }
+                
+                span{
+                    margin-left: 10px;
+                    color: #2e90b7;
+                }
+            }
+                .item-price{
+                    color: #10567B;
+                    font-size: 1.875rem;
+                }
+               
+                
+            }
+        }
+        @media screen and (max-width: 540px){
+            .row{
+            display: block;
+            .section-l{
+            width: 100%;
+            .item-img{
+                width:80vw;
+                background-color: rgb(209, 209, 209);
+                height: 80vw;
+                margin: 0 5%;
+                .img{
+                    margin: 16.5% 0;
+                    width: 80vw;
+                    height: auto;
+                    
+                }
+                
+            }
+            }
+            .section-r{
+                width: 100%;
+                }
+        }
+    } 
+        
     }
+}
+.box-title{
+    font-weight: 700;
+    font-size: 1.25rem;
+    border-bottom:solid 1px #d3d3d5;
+    padding-bottom: 14px;
+    
 }
