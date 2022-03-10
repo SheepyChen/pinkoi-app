@@ -126,6 +126,41 @@ function About() {
                         </div>
                         <div className="ship-info">
                             <div class="box-title">運費與其他資訊</div>
+                            <div className="info">
+                                <dt>商品運費</dt>
+                                <dd>從台灣基隆市寄出，寄往：</dd>
+                            </div>
+                            <select name="quantity" class="select">
+                                <option value="taiwan">taiwan</option>
+                                <option value="tai">tai</option>
+                                <option value="twan">twan</option>
+                                <option value="an">an</option>
+                            </select>
+                            <div className="info">
+                                <dt>付款方式
+                                </dt>
+                                <dd><ul>
+                                    <li>信用卡安全加密付款</li>
+                                    <li>7-11 ibon 代碼繳費</li>
+                                    <li> ATM 轉帳繳費</li>
+                                </ul></dd>
+                            </div>
+                            <div class="info">
+                                <dt>問題回報</dt>
+                                <dd><a href="#">我要檢舉此商品
+                                </a></dd>
+                            </div>
+                            <div className="review-info">
+                                <div class="box-title">購買評價</div>
+                            </div>
+                            <div className="recommend-sec">
+                                <h2>看過此商品的人也搜尋了</h2>
+                            </div>
+
+
+
+
+
                         </div>
 
 
@@ -157,13 +192,55 @@ function About() {
                             <li>付款後，從備貨到寄出商品為 5 個工作天。（不包含假日）</li>
                             <li>設計館提供統一發票或免用統一發票收據</li>
                         </ul>
-                        <div class="box-title">優惠活動</div>
+                        <div class="box-title-r">優惠活動</div>
                         <a>顯示更多優惠活動</a>
                         <ul>
                             <li>此商品由 Pinkoi 配送，購買 Pinkoi 跨館合併結帳專區 商品，結帳滿 NT$ 1,200 可享免運優惠。</li>
                             <li>Pinkoi 零食大賞：至 2022/3/31 為止，購買指定商品，滿 NT$ 699 享免運</li>
                         </ul>
-                        <div class="box-title">關於品牌</div>
+                        <div class="box-title-r">關於品牌</div>
+                        <div className="brand-card">
+                            <img src="https://cdn01.pinkoi.com/store/bearqueen2022/logo/1/150x150.jpg" alt="" />
+                            <a className="brand-name">BearQueen 熊后</a>
+                            <div className="item-review"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>5.0<a href="#"><span>(1)</span></a></div>
+                        </div>
+                        <div className="brand-info">
+                            <dt>上次上線</dt>
+                            <dd>1 天內
+                            </dd>
+                        </div>
+                        <div className="brand-info">
+                            <dt>回應率：</dt>
+                            <dd>-</dd>
+                        </div>
+                        <div className="brand-info">
+                            <dt>回應速度：</dt>
+                            <dd>-</dd>
+                        </div>
+                        <div className="brand-info">
+                            <dt>平均出貨速度：</dt>
+                            <dd>1~3日</dd>
+                        </div>
+
+                        <div class="box-title-r">熱門商品推薦</div>
+                        <div className="card-contianer">
+                            <div className="card-product">
+                                <div className="product-img">
+                                    <a class="product" href="#"><img src="https://cdn01.pinkoi.com/product/7QaYMPbE/3/80x80.jpg" alt="" /></a>
+                                </div>
+                                <div className="card-title">
+                                    限量 大容量
+                                </div>
+                                <div className="card-details">
+                                    <a href="#">沙發洋行</a>
+                                    <div class="price">NT$ 99</div>
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
 
                     </div>
                 </div>
