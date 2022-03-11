@@ -1,16 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import Search from '../conponents/Search';
-import Picture from '../conponents/Picture';
 
 
-const Homepage = () => {
-    const [input, setInput] = useState("");
+const RecommandProduct = () => {
     let [data, setData] = useState(null);
     let [page, setPage] = useState(1);
-    const [currentSearch, setcurrentSearch] = useState("");
     const auth = "563492ad6f91700001000001cf5d90e5a37d4d459a6f29a3b5627782";
     const initailURL = "https://api.pexels.com/v1/curated?page=1&per_page=15";
-    const searchURL = `https://api.pexels.com/v1/search?query=${currentSearch}&per_page=15&page=1`;
+
     //fetch data from pexel api
     const search = async (url) => {
         setPage(2);
@@ -27,11 +23,8 @@ const Homepage = () => {
     //load more pictures
     const morepicture = async () => {
         let newURL;
-        if (input === "") {
-            newURL = `https://api.pexels.com/v1/curated?page=${page}&per_page=15"`;
-        } else {
-            newURL = `https://api.pexels.com/v1/search?query=${currentSearch}&per_page=15&page=${page}`;
-        }
+        newURL = `https://api.pexels.com/v1/curated?page=${page}&per_page=15"`;
+
         setPage(page + 1);
         const dataFetch = await fetch(newURL, {
             method: "GET",
@@ -43,29 +36,25 @@ const Homepage = () => {
         let parsedData = await dataFetch.json();
         setData(data.concat(parsedData.photos));
     };
+
     //fetch data when the page loads up
     useEffect(() => {
         search(initailURL);
     }, []);
-    useEffect(() => {
-        if (currentSearch === "") {
-            search(initailURL);
-        } else {
-            search(searchURL);
-        }
-    }, [currentSearch]);
-
     return (
         <div>
-            <Search search={() => {
-                setcurrentSearch(input);
-            }}
-                setInput={setInput}
-            />
             <div className="pictures">
                 {data &&
                     data.map((d) => {
-                        return <Picture data={d} />
+                        console.log(d);
+                        return <a target="_blank" href={d.src.large} className="picture">
+                            <div className="imageContainer">
+                                <img src={d.src.large} alt="" />
+                            </div>
+                            <p className="product-title">{d.alt}</p>
+                            <p className="product-description">{d.photographer}</p>
+                            <p className="product-price">NT${d.width}</p>
+                        </a>
                     })
                 }
             </div>
@@ -75,4 +64,4 @@ const Homepage = () => {
         </div>
     );
 };
-export default Homepage;
+export default RecommandProduct;

@@ -1,8 +1,7 @@
 import React from 'react';
 import Nav from './conponents/Nav';
-
 import Footer from './conponents/Footer';
-import Homepage from './pages/Homepage';
+import RecommandProduct from './pages/home/RecommandProduct';
 import About from './pages/About';
 import { Routes, Route } from 'react-router-dom';
 import './styles/style.css';
@@ -12,9 +11,10 @@ function App() {
     <div className="App">
       <Nav />
       <Routes>
-        <Route path="/store" element={<Homepage />} />
+        <Route path="/r" element={<About />} />
         <Route path="/" element={<About />} />
       </Routes>
+      <RecommandProduct />
       <Footer />
 
     </div>
