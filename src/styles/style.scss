@@ -12,6 +12,15 @@ a{
 ul{
     list-style-type: none;
 }
+.item-title{
+    font-size: 1.625rem;
+    word-spacing: 0.025em;
+    letter-spacing:0.65px;
+    line-height: 1.4;
+    font-weight: 700;
+    margin-bottom: 14px;
+    color: #39393e;
+}
 .morePicture{
     display: flex;
     justify-content: center;
@@ -34,3 +43,7 @@ ul{
 @import "./footer";
 @import "./recommandproduct";
 @import "./about";
+@import "./productmenu";
+@import "./productImg";
+@import "./productInfo";
+@import"./productdescription";

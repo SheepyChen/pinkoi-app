@@ -1,0 +1,18 @@
+.food-info{
+    dl{
+        padding-top: 24px;
+    
+    .info{
+        display: flex;
+        dt{
+            width: 40%;
+            color: rgb(146, 146, 146);
+        }
+        dd{
+            width: 60%;
+            justify-content: flex-start;
+            
+        }
+    }
+}
+}

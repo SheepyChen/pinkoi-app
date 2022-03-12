@@ -1,0 +1,22 @@
+.item-img{
+    width:50vw;
+    background-color: rgb(209, 209, 209);
+    height: 50vw;
+    .img{
+        margin: 16.5% 0;
+        width: 50vw;
+        height: auto;
+        
+    }
+    
+}
+.img-thumbs{
+    margin: 5% 10%;
+    .thumb{
+        margin-right:10px ;
+        img{ 
+        width: 51px;
+        height: 51px;
+        }
+    }
+}
