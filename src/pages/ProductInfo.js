@@ -1,12 +1,11 @@
 import React from 'react'
 
-
 function ProductInfo() {
     return (
         <div className="product-info">
-            <div class="box-title">商品資訊</div>
+            <div className="box-title">商品資訊</div>
             <dl>
-                <div class="info">
+                <div className="info">
                     <dt>商品材質</dt>
                     <dd><a href="#">新鮮食材</a></dd>
                 </div>

@@ -1,15 +1,17 @@
 .food-info{
+    margin-bottom: 36px;
     dl{
-        padding-top: 24px;
+        
     
     .info{
         display: flex;
+        margin-bottom: 10px;
         dt{
-            width: 40%;
-            color: rgb(146, 146, 146);
+            width: 25%;
+            color: #929295;
         }
         dd{
-            width: 60%;
+            width: 75%;
             justify-content: flex-start;
             
         }

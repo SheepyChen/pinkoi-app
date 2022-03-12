@@ -5,6 +5,7 @@
     font-family: Helvetica Neue,Helvetica,Arial,PingFang TC,Heiti TC,Microsoft JhengHei,sans-serif;
     font-size: 0.935rem;
     letter-spacing: .05em;
+    color: #39393E;
 }
 a{
     text-decoration: none;
@@ -18,7 +19,7 @@ ul{
     font-weight: 700;
     font-size: 1.34rem;
     border-bottom:solid 1px #d3d3d5;
-    color: #39393E;
+    
     padding-bottom: 14px;
     margin-bottom: 24px;
     
@@ -26,7 +27,7 @@ ul{
 .box-title-r{
     font-weight: 600;
     font-size: 1.34rem;
-    color: #39393E;
+    
     border-top:solid 1px #d3d3d5;
     padding-top: 24px;
     
@@ -55,5 +56,7 @@ ul{
 @import "./about";
 @import "./productmenu";
 @import "./productImg";
+@import "./productdescription";
 @import "./productInfo";
-@import"./productdescription";
+@import "./foodInfo"
+
