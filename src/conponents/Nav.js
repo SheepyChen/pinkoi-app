@@ -1,52 +1,59 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useState, useEffect, useRef } from 'react';
+import { ReactComponent as UserIcon } from '../pic/user-regular.svg';
+import { ReactComponent as HeartIcon } from '../pic/heart-regular.svg';
+import { ReactComponent as BellIcon } from '../pic/bell-regular.svg';
+import { ReactComponent as CartIcon } from '../pic/cart-shopping-solid.svg';
 
 function Nav() {
     return (
-        <header>
-            <div class="header-wrap">
-                <div class="header-top">
-                    <div class="header-left">
-                        <a class="logo" href="/"></a>
-                        <div class="header-search">
-                            <form method="get" action="/search">
-                                <input class="search-text" type="text" name="q" placeholder="搜尋好設計、體驗活動" />
-                                <span class="voice-icon"><i class="fa-solid fa-microphone"></i></span>
-                                <button class="submit">搜尋</button>
-                                <div class="trend">
-                                    <a href="#">女人節</a>
-                                    <a href="#">口罩</a>
-                                    <a href="#">文具新品</a>
-                                    <a href="#">露營</a>
-                                    <a href="#">信用卡優惠</a>
-                                    <a href="#">海外免運</a>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="header-right">
-                        <div className="user icon"><i class="fa-solid fa-user"></i></div>
-                        <a class="favlist icon" href=""><i class="fa-solid fa-heart"></i></a>
-                        <div className="notification icon"><i class="fa-solid fa-bell"></i></div>
-                        <a class="cart icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
-                    </div>
-                </div>
-                <nav>
-                    <ul>
-                        <li class="nav-item"></li>
-                        <li class="nav-item"></li>
-                        <li class="nav-item"></li>
-                        <li class="nav-item"></li>
-                        <li class="nav-item"></li>
-                        <li class="nav-item"></li>
-                        <li class="nav-item"></li>
-                        <li class="nav-item"></li>
-                        <li class="nav-item"></li>
-                    </ul>
-                </nav>
+        <Navbar>
+            <NavItem icon={<UserIcon />}>
+                <DropdownMenu />
+            </NavItem>
+            <NavItem icon={<HeartIcon />} />
+            <NavItem icon={<BellIcon />} />
+            <NavItem icon={<CartIcon />} />
+        </Navbar >
+    );
+}
+
+function Navbar(props) {
+    return (
+        <nav className="navbar">
+            <ul className="navbar-nav">{props.children}</ul>
+        </nav>
+    );
+}
+
+function NavItem(props) {
+    const [open, setOpen] = useState(false);
+    return (
+        <li className="nav-item">
+            <a href="#" className="icon-button" onClick={() => setOpen(!open)}>
+                {props.icon}
+            </a>
+            {open && props.children}
+        </li>
+    );
+}
+function DropdownMenu() {
+    function DropdownItem(props) {
+        return (
+            <a href="#" className="menu-item">
+                {props.children}
+            </a>
+        );
+    }
+    return (
+        <div className="dropdown">
+            <div className="menu">
+                <DropdownItem>我的信箱</DropdownItem>
+                <DropdownItem>通知中心</DropdownItem>
+                <DropdownItem>P coin</DropdownItem>
+                <DropdownItem>我的信箱</DropdownItem>
             </div>
-        </header>
-    )
+        </div>
+    );
 }
 
 export default Nav

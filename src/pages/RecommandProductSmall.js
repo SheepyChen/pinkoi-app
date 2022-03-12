@@ -42,13 +42,14 @@ const RecommandProduct = () => {
         search(initailURL);
     }, []);
     return (
-        <div>
-            <div className="pictures">
+        <div >
+            <div className="box-title">熱門商品推薦</div>
+            <div className="pictures-s">
                 {data &&
                     data.map((d) => {
                         console.log(d);
-                        return <a target="_blank" href={d.src.large} className="picture">
-                            <div className="imageContainer">
+                        return <a target="_blank" href={d.src.large} className="picture-s">
+                            <div className="imageContainer-s">
                                 <img src={d.src.large} alt="" />
                             </div>
                             <p className="product-title">{d.alt}</p>

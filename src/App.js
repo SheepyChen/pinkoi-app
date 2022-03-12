@@ -1,5 +1,5 @@
 import React from 'react';
-import Nav from './conponents/Nav';
+import Header from './conponents/Header';
 import Footer from './conponents/Footer';
 import RecommandProduct from './pages/RecommandProduct';
 import Home from './pages/Home';
@@ -9,7 +9,7 @@ import './styles/style.css';
 function App() {
   return (
     <div className="App">
-      <Nav />
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
