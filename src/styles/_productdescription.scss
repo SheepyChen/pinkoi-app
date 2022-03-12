@@ -1,6 +1,20 @@
 .product-description{
+    position: relative;
+    margin-bottom: 36px;
     img{
-        width: 100px;
-        height: 100px;
+        width: 100%;
+        
     }
+    .p{
+        color: #39393E;
+
+
+    .read-more-link{
+        position: absolute;
+        transform: translate(-50%);
+        color: #2e90b7;
+        left: 50%;
+        cursor: pointer;
+    }
+}
 }

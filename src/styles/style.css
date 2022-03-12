@@ -4,7 +4,8 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: Helvetica Neue,Helvetica,Arial,PingFang TC,Heiti TC,Microsoft JhengHei,sans-serif;
-  font-size: 0.875rem;
+  font-size: 0.935rem;
+  letter-spacing: .05em;
 }
 
 a {
@@ -16,14 +17,21 @@ ul {
   list-style-type: none;
 }
 
-.item-title {
-  font-size: 1.625rem;
-  word-spacing: 0.025em;
-  letter-spacing: 0.65px;
-  line-height: 1.4;
+.box-title {
   font-weight: 700;
-  margin-bottom: 14px;
-  color: #39393e;
+  font-size: 1.34rem;
+  border-bottom: solid 1px #d3d3d5;
+  color: #39393E;
+  padding-bottom: 14px;
+  margin-bottom: 24px;
+}
+
+.box-title-r {
+  font-weight: 600;
+  font-size: 1.34rem;
+  color: #39393E;
+  border-top: solid 1px #d3d3d5;
+  padding-top: 24px;
 }
 
 .morePicture {
@@ -319,11 +327,11 @@ footer .footer-bottom .right .right-lan i {
 }
 
 .main .main-wrap .row .section-l {
-  width: 60vw;
+  width: 53vw;
 }
 
 .main .main-wrap .row .section-r {
-  width: 40vw;
+  width: 45vw;
   height: 80vh;
   margin-left: 5%;
 }
@@ -360,6 +368,16 @@ footer .footer-bottom .right .right-lan i {
   font-size: 1.875rem;
 }
 
+.main .main-wrap .row .section-r .item-title {
+  font-size: 1.625rem;
+  word-spacing: 0.025em;
+  letter-spacing: 0.65px;
+  line-height: 1.4;
+  font-weight: 700;
+  margin-bottom: 14px;
+  color: #39393e;
+}
+
 @media screen and (max-width: 540px) {
   .main .main-wrap .row {
     display: block;
@@ -381,20 +399,6 @@ footer .footer-bottom .right .right-lan i {
   .main .main-wrap .row .section-r {
     width: 100%;
   }
-}
-
-.box-title {
-  font-weight: 700;
-  font-size: 1.25rem;
-  border-bottom: solid 1px #d3d3d5;
-  padding-bottom: 14px;
-}
-
-.box-title-r {
-  font-weight: 600;
-  font-size: 1.25rem;
-  border-top: solid 1px #d3d3d5;
-  padding-top: 24px;
 }
 
 .product-menu {
@@ -458,8 +462,25 @@ footer .footer-bottom .right .right-lan i {
           justify-content: flex-start;
 }
 
+.product-description {
+  position: relative;
+  margin-bottom: 36px;
+}
+
 .product-description img {
-  width: 100px;
-  height: 100px;
+  width: 100%;
+}
+
+.product-description .p {
+  color: #39393E;
+}
+
+.product-description .p .read-more-link {
+  position: absolute;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  color: #2e90b7;
+  left: 50%;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

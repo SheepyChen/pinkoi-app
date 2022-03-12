@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Helvetica Neue,Helvetica,Arial,PingFang TC,Heiti TC,Microsoft JhengHei,sans-serif;
-    font-size: 0.875rem;
+    font-size: 0.935rem;
+    letter-spacing: .05em;
 }
 a{
     text-decoration: none;
@@ -12,14 +13,23 @@ a{
 ul{
     list-style-type: none;
 }
-.item-title{
-    font-size: 1.625rem;
-    word-spacing: 0.025em;
-    letter-spacing:0.65px;
-    line-height: 1.4;
+
+.box-title{
     font-weight: 700;
-    margin-bottom: 14px;
-    color: #39393e;
+    font-size: 1.34rem;
+    border-bottom:solid 1px #d3d3d5;
+    color: #39393E;
+    padding-bottom: 14px;
+    margin-bottom: 24px;
+    
+}
+.box-title-r{
+    font-weight: 600;
+    font-size: 1.34rem;
+    color: #39393E;
+    border-top:solid 1px #d3d3d5;
+    padding-top: 24px;
+    
 }
 .morePicture{
     display: flex;

@@ -1,19 +1,18 @@
 .main{
     .main-wrap{
         max-width: 1200px;
-        
         width: 100%;
         margin: 0 auto;
         .row{
             display:flex ;
             
             .section-l{
-                width:60vw;
+                width:53vw;
                 
         }
             
             .section-r{
-                width: 40vw;
+                width: 45vw;
                 height: 80vh;
                 margin-left:5%;
                 .item-title{
@@ -43,7 +42,15 @@
                     color: #10567B;
                     font-size: 1.875rem;
                 }
-               
+                .item-title{
+                    font-size: 1.625rem;
+                    word-spacing: 0.025em;
+                    letter-spacing:0.65px;
+                    line-height: 1.4;
+                    font-weight: 700;
+                    margin-bottom: 14px;
+                    color: #39393e;
+                }
                 
             }
         }
@@ -73,18 +80,4 @@
     } 
         
     }
-}
-.box-title{
-    font-weight: 700;
-    font-size: 1.25rem;
-    border-bottom:solid 1px #d3d3d5;
-    padding-bottom: 14px;
-    
-}
-.box-title-r{
-    font-weight: 600;
-    font-size: 1.25rem;
-    border-top:solid 1px #d3d3d5;
-    padding-top: 24px;
-    
 }
