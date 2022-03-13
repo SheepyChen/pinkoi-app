@@ -39,7 +39,9 @@ ul{
     align-items: center;
     padding: 4rem;
     button{
-        padding: 0.5rem;
+        padding: 9px 14px;
+        min-width: 240px;
+        border-radius: 4px;
         cursor: pointer;
         font-weight: 500;
         color: #39393e;
@@ -53,7 +55,7 @@ ul{
 }
 @import "./nav";
 @import "./footer";
-@import "./recommandproduct";
+@import "./recommendproduct";
 @import "./about";
 @import "./productmenu";
 @import "./productImg";
@@ -62,7 +64,9 @@ ul{
 @import "./foodInfo";
 @import "./shipInfo";
 @import "./reviewinfo";
+@import "./recommendsec";
+@import "./productmain";
 @import "./promotions";
-@import "./recommandproductsmall";
+@import "./recommendproductsmall";
 
 

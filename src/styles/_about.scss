@@ -5,12 +5,9 @@
         margin: 0 auto;
         .row{
             display:flex ;
-            
             .section-l{
                 width:53vw;
-                
         }
-            
             .section-r{
                 width: 45vw;
                 height: 80vh;
@@ -24,34 +21,7 @@
                     margin-bottom: 14px;
                     color: #39393e;
                 }
-                .item-review{
-                    margin: 14px 0;
-                    :nth-child(5){
-                        margin-right: 10px;
-                    }
-                    i{
-                        color:rgb(241, 108, 93);
-                }
-                
-                span{
-                    margin-left: 10px;
-                    color: #2e90b7;
-                }
-            }
-                .item-price{
-                    color: #10567B;
-                    font-size: 1.875rem;
-                }
-                .item-title{
-                    font-size: 1.625rem;
-                    word-spacing: 0.025em;
-                    letter-spacing:0.65px;
-                    line-height: 1.4;
-                    font-weight: 700;
-                    margin-bottom: 14px;
-                    color: #39393e;
-                }
-                
+            
             }
         }
         @media screen and (max-width: 540px){

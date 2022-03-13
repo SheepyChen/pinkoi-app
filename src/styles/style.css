@@ -48,7 +48,9 @@ ul {
 }
 
 .morePicture button {
-  padding: 0.5rem;
+  padding: 9px 14px;
+  min-width: 240px;
+  border-radius: 4px;
   cursor: pointer;
   font-weight: 500;
   color: #39393e;
@@ -375,7 +377,7 @@ footer .footer-bottom .right .right-lan i {
 }
 
 .pictures .picture {
-  width: 16vw;
+  width: 13vw;
   height: 35%;
   margin: 0 6px;
   margin-bottom: 14px;
@@ -383,8 +385,8 @@ footer .footer-bottom .right .right-lan i {
 
 .pictures .picture .imageContainer {
   overflow: hidden;
-  width: 16vw;
-  height: 16vw;
+  width: 13vw;
+  height: 13vw;
 }
 
 .pictures .picture .imageContainer img {
@@ -405,6 +407,11 @@ footer .footer-bottom .right .right-lan i {
   font-weight: 700;
   color: #39393e;
   margin-top: 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
 }
 
 .pictures .picture .product-description {
@@ -439,38 +446,6 @@ footer .footer-bottom .right .right-lan i {
   width: 45vw;
   height: 80vh;
   margin-left: 5%;
-}
-
-.main .main-wrap .row .section-r .item-title {
-  font-size: 1.625rem;
-  word-spacing: 0.025em;
-  letter-spacing: 0.65px;
-  line-height: 1.4;
-  font-weight: 700;
-  margin-bottom: 14px;
-  color: #39393e;
-}
-
-.main .main-wrap .row .section-r .item-review {
-  margin: 14px 0;
-}
-
-.main .main-wrap .row .section-r .item-review :nth-child(5) {
-  margin-right: 10px;
-}
-
-.main .main-wrap .row .section-r .item-review i {
-  color: #f16c5d;
-}
-
-.main .main-wrap .row .section-r .item-review span {
-  margin-left: 10px;
-  color: #2e90b7;
-}
-
-.main .main-wrap .row .section-r .item-price {
-  color: #10567B;
-  font-size: 1.875rem;
 }
 
 .main .main-wrap .row .section-r .item-title {
@@ -562,9 +537,12 @@ footer .footer-bottom .right .right-lan i {
   position: absolute;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
-  color: #2e90b7;
   left: 50%;
   cursor: pointer;
+}
+
+.product-description .p .read-more-link h3 {
+  color: #2e90b7;
 }
 
 .product-info {
@@ -817,6 +795,87 @@ footer .footer-bottom .right .right-lan i {
   margin-right: 10px;
 }
 
+h2 {
+  margin-top: 30px;
+  margin-bottom: 14px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.recommend-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.recommend-section .recommend-sec {
+  width: 227px;
+  height: 159px;
+  margin-right: 26px;
+  border: solid 1px #d3d3d5;
+}
+
+.recommend-section .recommend-sec .rec-top {
+  width: 240px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50%;
+}
+
+.recommend-section .recommend-sec .rec-top img {
+  width: 74px;
+  height: 74px;
+  margin: 0 0.66667px;
+}
+
+.recommend-section .recommend-sec .rec-title {
+  font-size: 16px;
+  height: 84px;
+  font-weight: 600;
+  color: #39393e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 10px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.item-title {
+  font-size: 1.625rem;
+  word-spacing: 0.025em;
+  letter-spacing: 0.65px;
+  line-height: 1.4;
+  font-weight: 700;
+  margin-bottom: 14px;
+  color: #39393e;
+}
+
+.item-price {
+  color: #10567B;
+  font-size: 1.875rem;
+}
+
+.add-btn {
+  width: 100%;
+  color: #fff;
+  background: #f16c5d;
+  border: 1px solid #f16c5d;
+}
+
+.collect-btn {
+  width: 100%;
+  border: #66666a 1px solid;
+}
+
 .promotions {
   margin-bottom: 24px;
 }
@@ -894,7 +953,7 @@ footer .footer-bottom .right .right-lan i {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
 }
 
@@ -903,6 +962,11 @@ footer .footer-bottom .right .right-lan i {
   color: #66666a;
   font-weight: 400;
   margin-bottom: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
 }
 
 .pictures-s .picture-s .product-price {

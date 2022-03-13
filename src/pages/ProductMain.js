@@ -6,6 +6,7 @@ function ProductMain() {
             <div className="item-price">NT$ 420</div>
             <div class="tag"><span>免運</span><span>從台灣寄出</span></div>
             <a href="#">享跨館結帳 滿額免運</a>
+            <br />
             <label>數量</label>
             <select name="quantity" class="select">
                 <option value="1">1</option>
@@ -19,8 +20,8 @@ function ProductMain() {
                 <option value="9">9</option>
                 <option value="10+">10 +</option>
             </select>
-            <button><i class="fa-solid fa-cart-shopping"></i>放入購物車</button>
-            <button><i class="fa-solid fa-heart"></i>收藏商品</button>
+            <div className="add-btn"><i class="fa-solid fa-cart-shopping"></i>放入購物車</div>
+            <div className="collect-btn"><i class="fa-solid fa-heart"></i>收藏商品</div>
             <ul>
                 <li>付款後，從備貨到寄出商品為 5 個工作天。（不包含假日）</li>
                 <li>設計館提供統一發票或免用統一發票收據</li>

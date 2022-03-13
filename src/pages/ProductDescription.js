@@ -31,7 +31,7 @@ function ProductDescription() {
                 成份：蘇打餅乾(麵粉、棕櫚油、奶油、蓬萊米粉、青蔥、酵母、泡打粉、蛋白分解酵素、鹽、β-胡蘿蔔素)、麥芽、蔓越莓乾、全脂奶粉、蛋白、棕櫚油、無水奶油、食鹽
                 <br />
                 <br />
-                <a className="read-more-link" onClick={() => { setReadMore(!readMore) }}><h2>{linkName}</h2></a>
+                <a className="read-more-link" onClick={() => { setReadMore(!readMore) }}><h3>{linkName}</h3></a>
                 {readMore && extraContent}
             </div >
         </div >

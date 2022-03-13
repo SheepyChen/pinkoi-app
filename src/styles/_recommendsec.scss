@@ -1,0 +1,39 @@
+h2{
+    margin-top: 30px;
+    margin-bottom: 14px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.recommend-section{
+display: flex;
+
+
+.recommend-sec{
+    width: 227px;
+    height: 159px;
+    margin-right: 26px;
+    
+    border:solid 1px #d3d3d5;
+    .rec-top{
+        width: 240px;
+        display: flex;
+        height: 50%;
+        img{
+            width: 74px;;
+            height: 74px;
+            margin: 0 0.66667px;
+        }
+    }
+    .rec-title{
+        font-size: 16px;
+        height: 84px;
+        font-weight: 600;
+        color: #39393e;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 10px;
+        flex:1 ;
+    }
+}
+}

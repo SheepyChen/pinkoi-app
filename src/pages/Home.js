@@ -7,12 +7,13 @@ import FoodInfo from './FoodInfo';
 import ShipInfo from './ShipInfo';
 import ReviewInfo from './ReviewInfo';
 import RecommendSec from './RecommendSec';
+import RecommendProduct from './RecommendProduct';
 import ProductMain from './ProductMain';
 import Promotions from './Promotions';
 import AboutBrand from './AboutBrand';
-import RecommandProductSmall from './RecommandProductSmall';
+import RecommendProductSmall from './RecommendProductSmall';
 
-function About() {
+function Home() {
     return (
         <div class="main">
             <div className="main-wrap">
@@ -25,25 +26,22 @@ function About() {
                         <FoodInfo />
                         <ShipInfo />
                         <ReviewInfo />
-                        <RecommendSec />
+
                     </div>
                     <div class="section-r">
                         <ProductMain />
                         <Promotions />
-
                         <AboutBrand />
-                        <RecommandProductSmall />
-
-
-
-
-
+                        <RecommendProductSmall />
                     </div>
                 </div>
+                <RecommendSec />
+                <RecommendProduct />
+
             </div >
 
         </div >
     )
 }
 
-export default About
+export default Home
