@@ -1,0 +1,88 @@
+.review-info{
+    .review-all{
+        border-bottom: 1px solid #d3d3d5;;
+        .review-buttons{
+            margin: 14px 0;
+            span{
+            color: #fff;
+            background: #10567b;
+            border: 1px solid #10567b;
+            border-radius: 20px;
+            padding:9px 24px;
+            margin-right: 14px;
+            &:hover{
+            color: #39393e;
+            background: #e5e5e6;
+            border: 1px solid #e5e5e6;
+            }
+            }
+        }
+        
+        .stars{
+            padding-bottom: 10px;
+            i{  
+                margin-right: 3px;
+                font-size: 13px;
+                color:#F16C5D;
+                span{
+                    color:#929295;
+                }
+            }
+        }
+    }
+
+    .review{
+        padding: 10px 0;
+        border-bottom: 1px solid #d3d3d5;;
+        .user-info{
+            display: flex;
+            align-items: center;
+            margin-bottom: 14px;
+            .user-icon{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: #39393e;
+            margin-right: 14px;
+            }
+            .user-name{
+                color:#515156;
+            }
+        }
+        .star-rate{
+            margin-bottom: 14px;
+            i{
+                margin-right: 3px;
+                font-size: 13px;
+                color:#F16C5D;
+            }
+            span{
+                margin-left: 10px;
+                color: #7c7c80;
+            }
+        }
+        .tag{
+            margin: 14px 0;
+            span{
+                background: #eeeeef;
+                margin: 0 6px 6px 0;
+                vertical-align: middle;
+                padding: 2px 14px;
+                border-radius: 6px;
+                color: #929295;
+                
+            }
+        }
+        .useful{
+            color:#66666a;
+            i{  
+                border-radius: 4px;
+                cursor: pointer;
+                border: #d3d3d5 1px solid;
+                padding: 5px 6px;
+                
+                margin-right: 10px;
+            }
+        }
+    }
+}

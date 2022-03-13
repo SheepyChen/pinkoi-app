@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState } from 'react';
 import { ReactComponent as UserIcon } from '../pic/user-regular.svg';
 import { ReactComponent as HeartIcon } from '../pic/heart-regular.svg';
 import { ReactComponent as BellIcon } from '../pic/bell-regular.svg';

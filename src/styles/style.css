@@ -713,6 +713,110 @@ footer .footer-bottom .right .right-lan i {
           justify-content: space-between;
 }
 
+.review-info .review-all {
+  border-bottom: 1px solid #d3d3d5;
+}
+
+.review-info .review-all .review-buttons {
+  margin: 14px 0;
+}
+
+.review-info .review-all .review-buttons span {
+  color: #fff;
+  background: #10567b;
+  border: 1px solid #10567b;
+  border-radius: 20px;
+  padding: 9px 24px;
+  margin-right: 14px;
+}
+
+.review-info .review-all .review-buttons span:hover {
+  color: #39393e;
+  background: #e5e5e6;
+  border: 1px solid #e5e5e6;
+}
+
+.review-info .review-all .stars {
+  padding-bottom: 10px;
+}
+
+.review-info .review-all .stars i {
+  margin-right: 3px;
+  font-size: 13px;
+  color: #F16C5D;
+}
+
+.review-info .review-all .stars i span {
+  color: #929295;
+}
+
+.review-info .review {
+  padding: 10px 0;
+  border-bottom: 1px solid #d3d3d5;
+}
+
+.review-info .review .user-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 14px;
+}
+
+.review-info .review .user-info .user-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #39393e;
+  margin-right: 14px;
+}
+
+.review-info .review .user-info .user-name {
+  color: #515156;
+}
+
+.review-info .review .star-rate {
+  margin-bottom: 14px;
+}
+
+.review-info .review .star-rate i {
+  margin-right: 3px;
+  font-size: 13px;
+  color: #F16C5D;
+}
+
+.review-info .review .star-rate span {
+  margin-left: 10px;
+  color: #7c7c80;
+}
+
+.review-info .review .tag {
+  margin: 14px 0;
+}
+
+.review-info .review .tag span {
+  background: #eeeeef;
+  margin: 0 6px 6px 0;
+  vertical-align: middle;
+  padding: 2px 14px;
+  border-radius: 6px;
+  color: #929295;
+}
+
+.review-info .review .useful {
+  color: #66666a;
+}
+
+.review-info .review .useful i {
+  border-radius: 4px;
+  cursor: pointer;
+  border: #d3d3d5 1px solid;
+  padding: 5px 6px;
+  margin-right: 10px;
+}
+
 .promotions {
   margin-bottom: 24px;
 }
