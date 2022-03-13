@@ -1,0 +1,73 @@
+.ship-info{
+    margin-bottom: 36px;
+    dl{
+        
+    .alert{
+        padding-bottom: 24px;
+    }
+    .pay-info{
+        padding: 24px 0;
+        border-bottom:1px solid #d3d3d5;
+        border-top:1px solid #d3d3d5;
+
+    }
+    .q{
+        padding: 24px 0; 
+        a{
+            color:#2e90b7;
+        }
+    }
+    .info{
+        display: flex;
+        
+        dt{
+            width: 25%;
+            color: #929295;
+        }
+        dd{
+            width: 75%;
+            justify-content: flex-start;
+            p{
+                margin-bottom: 14px;
+            }
+            select{
+                width: 50%;
+                height: 42px;
+                border:1px solid #d3d3d5;
+                display: block;
+                margin-bottom: 14px;
+            }
+            .method{
+                display: flex;
+                justify-content: space-between;
+            }
+            span{
+                padding-bottom: 14px;
+                font-weight: 700;
+            }
+            li{
+                margin-top: 6px;
+                padding-top: 6px;
+            }
+            .ship-row{
+                padding-bottom: 24px;
+                margin-bottom: 24px;
+                border-bottom: #d3d3d5 1px solid ;
+                .free{
+                    font-size: 0.6rem;
+                    color: #66666a;
+                span{
+                    font-size: 0.6rem;
+                    color: #F16C5D;;
+                }
+                }
+            }
+            
+        }
+    }
+}
+}
+.ship-menu{   
+    display: flex;
+    justify-content: space-between;
+}
