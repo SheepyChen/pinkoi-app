@@ -30,6 +30,7 @@ ul {
   font-weight: 600;
   font-size: 1.34rem;
   border-top: solid 1px #d3d3d5;
+  padding-bottom: 14px;
   padding-top: 24px;
 }
 
@@ -710,6 +711,35 @@ footer .footer-bottom .right .right-lan i {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.promotions {
+  margin-bottom: 24px;
+}
+
+.promotions ul .none {
+  cursor: none;
+  color: #7c7c80;
+  font-weight: 400;
+  list-style-type: none;
+  margin-bottom: 0;
+}
+
+.promotions ul li {
+  cursor: pointer;
+  color: #ee847d;
+  font-weight: 600;
+  list-style-type: initial;
+  margin-bottom: 14px;
+}
+
+.promotions ul .show-more-link {
+  cursor: pointer;
+}
+
+.promotions ul .show-more-link h2 {
+  margin-bottom: 14px;
+  color: #2e90b7;
 }
 
 .pictures-s {
