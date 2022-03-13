@@ -1,5 +1,5 @@
-
-.item-title{
+.product-main{
+    .item-title{
     font-size: 1.625rem;
     word-spacing: 0.025em;
     letter-spacing:0.65px;
@@ -7,18 +7,68 @@
     font-weight: 700;
     margin-bottom: 14px;
     color: #39393e;
-}
-.item-price{
+    }
+    .item-review{
+        i{
+            color:#f16c5d;
+        }
+    }
+    .item-price{
     color: #10567B;
     font-size: 1.875rem;
-}
-.add-btn{
+    }
+    .tag{
+        display: flex;
+        width: 33%;
+        margin: 14px 0;
+        border: #2e90b7 1px solid;
+
+        dt{
+            background: #2e90b7;
+            color: #fff;
+            padding: 4px 8px;
+            font-weight: 500;
+        }
+        dd{
+            color: #2e90b7;
+            padding: 4px 8px;
+            margin-left: 0;
+            font-weight: 500;
+
+        }
+    }
+    a{
+        color: #2e90b7; 
+    }
+    select{
+        width: 25%;
+        height: 42px;
+        border:1px solid #d3d3d5;
+        display: block;
+        margin-bottom: 14px;
+        
+    }
+    .add-btn{
+        text-align: center;
     width: 100%;
     color: #fff;
     background: #f16c5d;
     border: 1px solid #f16c5d;
-}
-.collect-btn{
+    padding: 9px 14px;
+    margin-bottom: 10px;
+    i{margin-right:6px ;
+        color: #fff;}
+    }
+    .collect-btn{
+    text-align: center;
+    margin-bottom: 10px;
     width: 100%;
-    border: #66666a 1px solid;
+    padding: 9px 14px;
+    color:#39393e;
+    border: #d3d3d5 1px solid;
+    i{margin-right:6px ;
+        color:#929295;
+    }
+    }
 }
+

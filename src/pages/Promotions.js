@@ -15,7 +15,7 @@ function Promotions() {
             <ul>
                 <li>此商品由 Pinkoi 配送，購買 Pinkoi 跨館合併結帳專區 商品，結帳滿 NT$ 1,200 可享免運優惠。</li>
                 <li>Pinkoi 零食大賞：至 2022/3/31 為止，購買指定商品，滿 NT$ 699 享免運</li>
-                <a className="show-more-link" onClick={() => { setshowMore(!showMore) }}><h2>{linkName}</h2></a>
+                <a className="show-more-link" onClick={() => { setshowMore(!showMore) }}><h3>{linkName}</h3></a>
                 {showMore && extraContent}
             </ul>
 
