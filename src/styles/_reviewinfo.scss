@@ -18,19 +18,9 @@
             }
         }
         
-        .stars{
-            padding-bottom: 10px;
-            i{  
-                margin-right: 3px;
-                font-size: 13px;
-                color:#F16C5D;
-                span{
-                    color:#929295;
-                }
-            }
-        }
+        
     }
-
+    
     .review{
         padding: 10px 0;
         border-bottom: 1px solid #d3d3d5;;
@@ -83,6 +73,17 @@
                 
                 margin-right: 10px;
             }
+        }
+    }
+}
+.stars{
+    padding-bottom: 10px;
+    i{  
+        margin-right: 3px;
+        font-size: 13px;
+        color:#F16C5D;
+        span{
+            color:#929295;
         }
     }
 }

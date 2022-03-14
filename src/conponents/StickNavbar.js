@@ -11,7 +11,7 @@ function StickNavbar() {
     const stickNavbar = () => {
         if (window !== undefined) {
             let windowHeight = window.scrollY;
-            console.log(windowHeight);
+            // console.log(windowHeight);
             windowHeight > 150 ? setStickyClass(!stickyClass) : setStickyClass(stickyClass);
         }
     };

@@ -1,3 +1,4 @@
+import ReviewStar from "./ReviewStar";
 function ReviewInfo() {
     return (
         <div id="review-info" className="review-info">
@@ -7,9 +8,7 @@ function ReviewInfo() {
                     <span>本商品評價</span>
                     <span>品牌所有評價</span>
                 </div>
-                <div className="stars">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span>5.0 (1)</span>
-                </div>
+                <ReviewStar />
             </div>
             <Reviews />
         </div>
