@@ -1,28 +1,29 @@
 import React, { useState } from 'react';
 import NavSearch from './NavSearch'
 import Nav from './Nav'
-import { ReactComponent as BellIcon } from '../pic/bell-regular.svg';
+
 
 function Header() {
 
     return (
         <header>
-            <div class="header-wrap">
-                <div class="header-top">
-                    <div class="header-left">
-                        <a class="logo" href="/"></a>
-                        <div class="header-search">
+            <div className="header-wrap">
+
+                <div className="header-top">
+                    <div className="header-left">
+                        <a className="logo" href="/"></a>
+                        <div className="header-search">
                             <NavSearch />
                         </div>
                     </div>
-                    <div class="header-right">
+                    <div className="header-right">
                         <Nav />
                     </div>
 
                 </div>
                 <div classname="header-item">
                     <ul>
-                        <li class="cate-item"></li>
+                        <li className="cate-item"></li>
                     </ul>
                 </div>
             </div>

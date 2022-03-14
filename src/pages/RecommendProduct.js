@@ -47,7 +47,7 @@ const RecommandProduct = () => {
             <div className="pictures">
                 {data &&
                     data.map((d) => {
-                        console.log(d);
+
                         return <a target="_blank" href={d.src.large} className="picture">
                             <div className="imageContainer">
                                 <img src={d.src.large} alt="" />

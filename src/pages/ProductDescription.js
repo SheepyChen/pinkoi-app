@@ -18,8 +18,8 @@ function ProductDescription() {
         </div>
     const linkName = readMore ? '' : '閱讀更多 Ｖ'
     return (
-        <div className="product-description">
-            <div class="box-title">商品介紹</div>
+        <div id="product-description" className="product-description">
+            <div className="box-title">商品介紹</div>
 
             <img src={require('../pic/cookie.jpg')} alt="" />
             <div className="p">

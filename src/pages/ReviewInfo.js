@@ -1,6 +1,6 @@
 function ReviewInfo() {
     return (
-        <div className="review-info">
+        <div id="review-info" className="review-info">
             <div class="box-title">購買評價</div>
             <div className="review-all">
                 <div className="review-buttons">

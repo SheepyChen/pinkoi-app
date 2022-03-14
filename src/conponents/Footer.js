@@ -4,9 +4,9 @@ function Footer() {
     return (
         <footer>
             <div className="footer-wrap">
-                <div class="footer-links">
-                    <ul class="links">
-                        <li><div class="title">購買</div></li>
+                <div className="footer-links">
+                    <ul className="links">
+                        <li><div className="title">購買</div></li>
                         <li><a href="#">所有商品分類</a></li>
                         <li><a href="#">品牌旗艦館</a></li>
                         <li><a href="#">品品學堂</a></li>
@@ -18,13 +18,13 @@ function Footer() {
                         <li><a href="#">下載 APP</a></li>
                         <li><a href="#">客人問與答</a></li>
                     </ul>
-                    <ul class="links">
-                        <li><div class="title">販售</div></li>
+                    <ul className="links">
+                        <li><div className="title">販售</div></li>
                         <li><a href="#">我想在 Pinkoi 上販售</a></li>
                         <li><a href="#">設計館問與答</a></li>
                     </ul>
-                    <ul class="links">
-                        <li><div class="title">幫助 / 政策</div></li>
+                    <ul className="links">
+                        <li><div className="title">幫助 / 政策</div></li>
                         <li><a href="#"> 問與答</a></li>
                         <li><a href="#"> 大宗採購</a></li>
                         <li><a href="#"> 訊息公告</a></li>
@@ -32,8 +32,8 @@ function Footer() {
                         <li><a href="#"> 退貨政策</a></li>
                         <li><a href="#"> 會員制度 & P Coins 紅利優惠</a></li>
                     </ul>
-                    <ul class="links">
-                        <li><div class="title">關於 Pinkoi</div></li>
+                    <ul className="links">
+                        <li><div className="title">關於 Pinkoi</div></li>
                         <li><a href="#"> 關於我們</a></li>
                         <li><a href="#"> 媒體報導</a></li>
                         <li><a href="#"> 工作機會</a></li>
@@ -41,22 +41,22 @@ function Footer() {
                         <li><a href="#"> Pinkoi for Business<span>New</span></a></li>
                         <li><a href="#"> iichi.com</a></li>
                     </ul>
-                    <ul class="links">
-                        <li><div class="title">追蹤 Pinkoi</div></li>
+                    <ul className="links">
+                        <li><div className="title">追蹤 Pinkoi</div></li>
                         <li><a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
                         <li><a href="#"><i class="fa-brands fa-line"></i>Line</a></li>
                         <li><a href="#"><i class="fa-brands fa-facebook-f"></i>Facebook</a></li>
                         <li><a href="#"><i class="fa-brands fa-youtube"></i>Youtube</a></li>
                     </ul>
                 </div>
-                <div class="footer-bottom">
-                    <div class="left">
-                        <div class="logo">
+                <div className="footer-bottom">
+                    <div className="left">
+                        <div className="logo">
                             <a href="/"></a>
                         </div>
                         <p>Design the way you are.</p>
                     </div>
-                    <div class="right">
+                    <div className="right">
                         <div className="right-p">
                             <p>食品業者登錄字號：A-153674659-00000-3</p>
                             <p>© 2022 Pinkoi. All Rights Reserved.</p>

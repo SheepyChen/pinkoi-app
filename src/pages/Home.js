@@ -17,9 +17,10 @@ function Home() {
     return (
         <div class="main">
             <div className="main-wrap">
+
                 <ProductMenu />
-                <div class="row">
-                    <div class="section-l">
+                <div className="row">
+                    <div className="section-l">
                         <ProductImg />
                         <ProductDescription />
                         <ProductInfo />
@@ -28,7 +29,7 @@ function Home() {
                         <ReviewInfo />
 
                     </div>
-                    <div class="section-r">
+                    <div className="section-r">
                         <ProductMain />
                         <Promotions />
                         <AboutBrand />

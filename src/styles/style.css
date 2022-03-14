@@ -262,6 +262,65 @@ header .header-wrap .header-top .header-right .icon {
   text-decoration: underline;
 }
 
+.sticky-nav {
+  z-index: 100;
+  background-color: #fff;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-bottom: var(--border);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sticky-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sticky-nav ul li {
+  color: var(--text-color);
+  padding: 16px;
+}
+
+.sticky-nav .small-btn .collect-btn {
+  line-height: 60px;
+  vertical-align: middle;
+  text-align: center;
+  margin-right: 6px;
+  width: 100%;
+  padding: 9px 14px;
+  color: #39393e;
+  border-radius: 4px;
+  border: #d3d3d5 1px solid;
+}
+
+.sticky-nav .small-btn .collect-btn i {
+  margin-right: 4px;
+  color: #929295;
+}
+
+.sticky-nav .small-btn .add-btn {
+  text-align: center;
+  width: 190px;
+  color: #fff;
+  background: #f16c5d;
+  border: 1px solid #f16c5d;
+  padding: 9px 13px;
+  border-radius: 4px;
+}
+
+.sticky-nav .small-btn .add-btn i {
+  margin-right: 4px;
+  color: #fff;
+}
+
 footer {
   font-size: 0.9rem;
   background-color: #f7f7f8;
@@ -424,6 +483,10 @@ footer .footer-bottom .right .right-lan i {
 .pictures .picture .product-price {
   color: #003354;
   font-weight: 500;
+}
+
+.main {
+  padding: 0 24px;
 }
 
 .main .main-wrap {
@@ -855,12 +918,24 @@ h2 {
   letter-spacing: 0.65px;
   line-height: 1.4;
   font-weight: 700;
-  margin-bottom: 14px;
   color: #39393e;
+}
+
+.product-main .item-review {
+  margin: 14px 0;
 }
 
 .product-main .item-review i {
   color: #f16c5d;
+}
+
+.product-main .item-review i:nth-child(5) {
+  margin-right: 10px;
+}
+
+.product-main .item-review span {
+  margin-left: 10px;
+  color: #2e90b7;
 }
 
 .product-main .item-price {
@@ -891,8 +966,17 @@ h2 {
   font-weight: 500;
 }
 
-.product-main a {
+.product-main .event {
   color: #2e90b7;
+}
+
+.product-main .event i {
+  margin-right: 6px;
+  color: #f16c5d;
+}
+
+.product-main .margin-b {
+  height: 36px;
 }
 
 .product-main select {
@@ -930,6 +1014,11 @@ h2 {
 .product-main .collect-btn i {
   margin-right: 6px;
   color: #929295;
+}
+
+.product-main ul li {
+  color: #66666a;
+  margin-bottom: 6px;
 }
 
 .promotions {

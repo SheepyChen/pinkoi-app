@@ -1,7 +1,7 @@
 function AboutBrand() {
     return (
         <div className="about-brand">
-            <div class="box-title-r">關於品牌</div>
+            <div className="box-title-r">關於品牌</div>
             <div className="brand-card">
                 <img src="https://cdn01.pinkoi.com/store/bearqueen2022/logo/1/150x150.jpg" alt="" />
                 <a className="brand-name">BearQueen 熊后</a>

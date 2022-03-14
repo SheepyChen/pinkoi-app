@@ -1,9 +1,9 @@
 function FoodInfo() {
     return (
         <div className="food-info">
-            <div class="box-title">食品資訊</div>
+            <div className="box-title">食品資訊</div>
             <dl>
-                <div class="info">
+                <div className="info">
                     <dt>內容物</dt>
                     <dd>
                         蘇打餅乾(麵粉、棕櫚油、奶油、蓬萊米粉、青蔥、酵母、泡打粉、蛋白分解酵素、鹽、β-胡蘿蔔素)、麥芽、蔓越莓乾、全脂奶粉、蛋白、棕櫚油、無水奶油、食鹽</dd>

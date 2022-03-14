@@ -1,6 +1,6 @@
 function ShipInfo() {
     return (
-        <div className="ship-info">
+        <div id="ship-info" className="ship-info">
             <div className="box-title">運費與其他資訊</div>
             <dl>
                 <div className="info">

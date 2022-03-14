@@ -3,17 +3,22 @@ import { ReactComponent as UserIcon } from '../pic/user-regular.svg';
 import { ReactComponent as HeartIcon } from '../pic/heart-regular.svg';
 import { ReactComponent as BellIcon } from '../pic/bell-regular.svg';
 import { ReactComponent as CartIcon } from '../pic/cart-shopping-solid.svg';
+import StickNavbar from './StickNavbar';
 
 function Nav() {
     return (
-        <Navbar>
-            <NavItem icon={<UserIcon />}>
-                <DropdownMenu />
-            </NavItem>
-            <NavItem icon={<HeartIcon />} />
-            <NavItem icon={<BellIcon />} />
-            <NavItem icon={<CartIcon />} />
-        </Navbar >
+        <>
+
+            <Navbar>
+                <NavItem icon={<UserIcon />}>
+                    <DropdownMenu />
+                </NavItem>
+                <NavItem icon={<HeartIcon />} />
+                <NavItem icon={<BellIcon />} />
+                <NavItem icon={<CartIcon />} />
+            </Navbar >
+            <StickNavbar />
+        </>
     );
 }
 
