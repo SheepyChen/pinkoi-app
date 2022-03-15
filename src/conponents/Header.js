@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import NavSearch from './NavSearch'
 import Nav from './Nav'
+import NavCate from './NavCate';
 
 
 function Header() {
@@ -21,11 +22,7 @@ function Header() {
                     </div>
 
                 </div>
-                <div classname="header-item">
-                    <ul>
-                        <li className="cate-item"></li>
-                    </ul>
-                </div>
+                <NavCate />
             </div>
         </header >
     )

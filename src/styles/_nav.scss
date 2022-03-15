@@ -212,4 +212,32 @@ header{
       }
     }
   }
-  
+  .cate-bar{
+    border-bottom: var(--border);
+    padding: 14px 0;
+    
+    ul{
+      display: flex;
+      justify-content: space-around;
+      li{
+        font-size: 14px;
+        a{
+          color:var(--text-color);
+        }
+        .cate-items {
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          top: 134px;
+          height: auto;
+          border: var(--border);
+          overflow: hidden;
+          background-color: #fff; 
+          .cate-name:hover {
+            text-decoration:underline;        
+
+          }
+        }
+      }
+    }
+  }
