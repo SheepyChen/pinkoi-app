@@ -7,12 +7,15 @@
         .row{
             display:flex ;
             .section-l{
-                width:53vw;
+                width:45vw;
+                margin-right: 5%;
+                
         }
             .section-r{
                 width: 45vw;
                 height: 80vh;
-                margin-left:5%;
+                
+                
                 .item-title{
                     font-size: 1.625rem;
                     word-spacing: 0.025em;
@@ -25,24 +28,14 @@
             
             }
         }
-        @media screen and (max-width: 540px){
+        @media screen and (max-width: 555px){
             .row{
             display: block;
             .section-l{
             width: 100%;
-            .item-img{
-                width:80vw;
-                background-color: rgb(209, 209, 209);
-                height: 80vw;
-                margin: 0 5%;
-                .img{
-                    margin: 16.5% 0;
-                    width: 80vw;
-                    height: auto;
-                    
-                }
+           
                 
-            }
+            
             }
             .section-r{
                 width: 100%;

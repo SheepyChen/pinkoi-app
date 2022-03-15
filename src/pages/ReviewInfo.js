@@ -32,7 +32,7 @@ function Reviews() {
 
                 <div className="star-rate">
                     <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                    <span>6天前</span>
+                    <span>{props.time}</span>
                 </div>
                 <div className="user-comment">
                     {props.comment}
@@ -49,7 +49,9 @@ function Reviews() {
     return (
 
         <div className="user-review">
-            <ReviewItem icon={""} name={"Kel****ly"} comment={"loremwdedwfewfw"} />
+            <ReviewItem icon={""} name={"trisha23"} time={"1天前"} comment={"好吃不黏膩"} />
+            <ReviewItem icon={""} name={"Kel****ly"} time={"1 周前"} comment={"很好吃！！"} />
+
 
         </div>
 

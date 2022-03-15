@@ -16,13 +16,34 @@ footer{
             .links{
                 width: 20%;
                 padding-right: 10px;
-                font-size: 0.8125rem;
+                
                 li{
                     margin-top: 6px;
+                    a{
+                        font-size: 13px;
+                        span{
+                            background: #f16c5d;
+                            color: #fff;
+                            font-size: 12px;
+                            font-weight: 300;
+                            border-radius: 3px;
+                            padding: 2px 6px;
+                            margin-left: 6px;
+                        }
+                    }
+                    
+                }
+                .social{
+                    margin-top: 10px;
+                    i{
+                    margin-right: 10px;
+                    font-size: 17px;}
                 }
                 .title{
-                    font-size: 0.875rem;
+                    font-size:14px;
                     font-weight: 700;
+                    color: #39393E;
+
                     
                 }
             }
@@ -52,7 +73,9 @@ footer{
         }
         .right{
             display: flex;
-            .right-p{
+            
+            p{
+                font-size: 12px;
                 color: #66666a;
             }
             .right-lan{
@@ -64,6 +87,7 @@ footer{
                     vertical-align: middle;
                     color: #39393E;
                     font-weight: 700;
+                    font-size: 12px;
                     
                 }
                 i{

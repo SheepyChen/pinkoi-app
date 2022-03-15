@@ -4,7 +4,7 @@ function ProductMain() {
     return (
         <div className="product-main">
             <div className="item-title">Bear Queen 熊后 | 牛奶莓莓 香蔥蘇打牛軋餅 12入/盒</div>
-            <div className="item-review"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>5.0<a href="#"><span>(1)</span></a></div>
+            <div className="item-review"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>5.0<a href="#"><span>(2)</span></a></div>
             <div className="item-price">NT$ 420</div>
             <dl className="tag">
                 <dt>免運</dt><dd>從台灣寄出</dd>

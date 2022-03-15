@@ -43,10 +43,10 @@ function Footer() {
                     </ul>
                     <ul className="links">
                         <li><div className="title">追蹤 Pinkoi</div></li>
-                        <li><a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
-                        <li><a href="#"><i class="fa-brands fa-line"></i>Line</a></li>
-                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i>Facebook</a></li>
-                        <li><a href="#"><i class="fa-brands fa-youtube"></i>Youtube</a></li>
+                        <li className="social"><a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+                        <li className="social"><a href="#"><i class="fa-brands fa-line"></i>Line</a></li>
+                        <li className="social"><a href="#"><i class="fa-brands fa-facebook-f"></i>Facebook</a></li>
+                        <li className="social"><a href="#"><i class="fa-brands fa-youtube"></i>Youtube</a></li>
                     </ul>
                 </div>
                 <div className="footer-bottom">

@@ -1,17 +1,17 @@
 .item-img{
-    width:50vw;
+    width:45vw;
     background-color: rgb(209, 209, 209);
-    height: 50vw;
+    height: 45vw;
     .img{
         margin: 16.5% 0;
-        width: 50vw;
+        width: 45vw;
         height: auto;
         
     }
     
 }
 .img-thumbs{
-    margin: 5% 10%;
+    margin: 5% 18%;
     .thumb{
         margin-right:10px ;
         img{ 
@@ -19,4 +19,20 @@
         height: 51px;
         }
     }
+}
+@media screen and (max-width: 555px){
+
+
+.item-img{
+    width:80vw;
+    background-color: rgb(209, 209, 209);
+    height: 80vw;
+    margin: 0 5%;
+    .img{
+        margin: 16.5% 0;
+        width: 80vw;
+        height: auto;
+        
+    }
+}
 }
