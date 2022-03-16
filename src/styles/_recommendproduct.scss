@@ -46,3 +46,19 @@
     }
 
 }
+@media screen and (max-width: 555px){
+    .recommend-product{
+        height: 600px;
+        h2{
+            display: none;
+        }
+        .morePicture{
+            display: none;
+        }
+        .pictures{
+                display: none;
+                
+            }
+
+    }
+}

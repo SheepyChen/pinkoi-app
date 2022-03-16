@@ -1,11 +1,28 @@
 .item-img{
+    display: flex;
+    overflow: hidden;
+    position: relative;
     width:45vw;
-    background-color: rgb(209, 209, 209);
+    background-color: #f7f7f8;
     height: 45vw;
+    .change-icon{
+        
+        .left-icon{
+            left: 0;
+            position: absolute;
+            top: 50%;
+        }
+        .right-icon{
+            right: 0;
+            position: absolute;
+            top: 50%;
+        }
+    }
     .img{
-        margin: 16.5% 0;
+        object-fit: contain;
         width: 45vw;
-        height: auto;
+        
+        
         
     }
     
@@ -13,6 +30,7 @@
 .img-thumbs{
     margin: 5% 18%;
     .thumb{
+        cursor: pointer;
         margin-right:10px ;
         img{ 
         width: 51px;
@@ -25,14 +43,17 @@
 
 .item-img{
     width:80vw;
-    background-color: rgb(209, 209, 209);
+    background-color: #f7f7f8;
     height: 80vw;
-    margin: 0 5%;
+    margin: 5% 5%;
     .img{
         margin: 16.5% 0;
         width: 80vw;
         height: auto;
         
     }
+}
+.img-thumbs{
+    display: none;
 }
 }

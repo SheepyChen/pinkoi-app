@@ -28,10 +28,11 @@ function RecommendSec() {
         <div className="recommend-section">
             <h2>看過此商品的人也搜尋了</h2>
 
-
-            <RecommendItem picurl={pic} title={"品味美食"} />
-            <RecommendItem picurl={pic} title={"品味美食"} />
-            <RecommendItem picurl={pic} title={"品味美食"} />
+            <div className="recommend-items">
+                <RecommendItem picurl={pic} title={"品味美食"} />
+                <RecommendItem picurl={pic} title={"品味美食"} />
+                <RecommendItem picurl={pic} title={"品味美食"} />
+            </div>
 
         </div >
 
