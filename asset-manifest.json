@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e0d1da19.css",
+    "main.js": "/static/js/main.a1531033.js",
+    "static/media/cookie.jpg": "/static/media/cookie.34c42c954c6f896850fa.jpg",
+    "static/media/pinkoi.png": "/static/media/pinkoi.a02340564cbb8a9c1202.png",
+    "index.html": "/index.html",
+    "static/media/bell-regular.svg": "/static/media/bell-regular.bbcf3762800ba0a718d192b9ad39e750.svg",
+    "static/media/heart-regular.svg": "/static/media/heart-regular.74333953fd9b66ca381563a1501486f1.svg",
+    "static/media/cart-shopping-solid.svg": "/static/media/cart-shopping-solid.a337fd836212a2dccfd649b9870f35bf.svg",
+    "static/media/user-regular.svg": "/static/media/user-regular.ac273af38b1c02e815ff9a51e390c1ce.svg",
+    "main.e0d1da19.css.map": "/static/css/main.e0d1da19.css.map",
+    "main.a1531033.js.map": "/static/js/main.a1531033.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0d1da19.css",
+    "static/js/main.a1531033.js"
+  ]
+}
