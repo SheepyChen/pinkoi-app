@@ -1,23 +1,29 @@
 import React, { useState } from 'react';
-// import { FaPencilAlt } from 'react-icons/fa';
 import { ReactComponent as UserIcon } from '../pic/user-regular.svg';
 import { ReactComponent as HeartIcon } from '../pic/heart-regular.svg';
 import { ReactComponent as BellIcon } from '../pic/bell-regular.svg';
 import { ReactComponent as CartIcon } from '../pic/cart-shopping-solid.svg';
+import { RiMoneyEuroCircleFill } from 'react-icons/ri'
 import StickNavbar from './StickNavbar';
+import MobileNav from './MobileNav';
 
 function Nav() {
     return (
         <>
 
             <Navbar>
+                <NavItem icon={<RiMoneyEuroCircleFill size='24px' color='yellow' />} />
                 <NavItem icon={<UserIcon />}>
                     <DropdownMenu />
                 </NavItem>
                 <NavItem icon={<HeartIcon />} />
                 <NavItem icon={<BellIcon />} />
                 <NavItem icon={<CartIcon />} />
+
+
             </Navbar >
+            <MobileNav />
+
             <StickNavbar />
         </>
     );

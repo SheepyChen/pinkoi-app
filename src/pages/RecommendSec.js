@@ -25,15 +25,15 @@ function RecommendSec() {
         );
     }
     return (
-        <>
+        <div className="recommend-section">
             <h2>看過此商品的人也搜尋了</h2>
-            <div className="recommend-section">
 
-                <RecommendItem picurl={pic} title={"品味美食"} />
-                <RecommendItem picurl={pic} title={"品味美食"} />
-                <RecommendItem picurl={pic} title={"品味美食"} />
-            </div>
-        </>
+
+            <RecommendItem picurl={pic} title={"品味美食"} />
+            <RecommendItem picurl={pic} title={"品味美食"} />
+            <RecommendItem picurl={pic} title={"品味美食"} />
+
+        </div >
 
 
 

@@ -42,7 +42,7 @@ const RecommandProduct = () => {
         search(initailURL);
     }, []);
     return (
-        <div >
+        <div className="recommend-product-s">
             <div className="box-title">熱門商品推薦</div>
             <div className="pictures-s">
                 {data &&

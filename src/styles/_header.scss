@@ -84,7 +84,11 @@ header{
               justify-content: center; 
               .nav-item {
                 padding: 6px 18px;
+                &:nth-child(1){
+                  display: none;
+                }
                   .icon-button { 
+                    
                   svg { 
                   fill: var(--text-color);
                   width: 24px;
@@ -102,16 +106,17 @@ header{
                     border: var(--border);
                     overflow: hidden;
                     background-color: #fff;
-                    transition: height var(--speed) ease;
+                    
                     .menu {
                       width: 100%;
                     
-                    
-                    .menu-item {
-                      height: 30px;
-                      display: flex;
-                      align-items: center;    
-                    }
+                      .menu-item {
+                        height: 30px;
+                        display: flex;
+                        align-items: center;
+                        
+                        
+                      }
                     .menu-item:hover {
                       text-decoration:underline;
                       
@@ -217,9 +222,62 @@ header{
       }
     }
   }
+}
   @media screen and (max-width: 555px){
-    .cate-bar{
-      display: none;
-    }
+  header{
+    .header-wrap{
+      
+      .header-top{
+      padding: 10px;
+      z-index: 100;
+      background-color: #fff;
+      position: fixed;
+      
+      top: 0;
+        .header-left{
+          .logo{
+          margin-left: 40px;
+          cursor: pointer;
+          width: 55px;
+          height: 36px;
+          }
+          .trend{
+          display: none;
+          }
+        }
+        .header-right{
+          .navbar{
+            .navbar-nav{
+              .nav-item{
+                padding: 6px;
+              }
+              .nav-item:nth-child(2){
+                display: none;
+              }
+              .nav-item:nth-child(3){
+                display: none;
+              }
+              .nav-item:nth-child(1){
+                display: inline-block;
+              }
+            }
+          }
+          .sticky-nav{
+          top:48px;
+          :nth-child(2){
+          display: none;
+          }
+            .small-btn{
+              display: none;
+            }
+          }
+        }
+      }
+      .cate-bar{
+        display: none;
+      }
+  }
+    
   }
 }
+    
