@@ -21,15 +21,20 @@ footer{
                     margin-top: 6px;
                     a{
                         font-size: 13px;
-                        span{
-                            background: #f16c5d;
-                            color: #fff;
-                            font-size: 12px;
-                            font-weight: 300;
-                            border-radius: 3px;
-                            padding: 2px 6px;
-                            margin-left: 6px;
+                        &:hover{
+                            text-decoration: underline;
                         }
+                    }
+                    span{
+                        background: #f16c5d;
+                        color: #fff;
+                        font-size: 12px;
+                        font-weight: 300;
+                        border-radius: 3px;
+                        padding: 2px 6px;
+                        margin-left: 6px;
+                        &:hover{
+                            text-decoration: none;}
                     }
                     
                 }
@@ -88,6 +93,9 @@ footer{
                     color: #39393E;
                     font-weight: 700;
                     font-size: 12px;
+                    &:hover{
+                        text-decoration: underline;
+                    }
                     
                 }
                 i{

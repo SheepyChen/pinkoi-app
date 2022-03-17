@@ -16,8 +16,6 @@ $ npm install
 
 ```javascript
 npm init 
-
-
 ```
 
 ### 安装react環境
@@ -25,13 +23,10 @@ npm init
 - react ：主要框架
 - react-dom ：React的DOM
 
-
 ```javascript
 npm install --save react react-dom
 
-bower install --save bootstrap
 ```
-
 
 ## 新增其他商品頁
 
@@ -48,5 +43,10 @@ bower install --save bootstrap
 下載 npm-gh-pages
 ```javascript
 npm install --save gh-pages
+npm run deploy
 ```
+
+### 目錄架構設計
+
+### 過程遇到了什麼問題
 

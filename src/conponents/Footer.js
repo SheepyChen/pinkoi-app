@@ -38,7 +38,7 @@ function Footer() {
                         <li><a href="#"> 媒體報導</a></li>
                         <li><a href="#"> 工作機會</a></li>
                         <li><a href="#"> 全新 Pinkoi</a></li>
-                        <li><a href="#"> Pinkoi for Business<span>New</span></a></li>
+                        <li><a href="#"> Pinkoi for Business</a><span>New</span></li>
                         <li><a href="#"> iichi.com</a></li>
                     </ul>
                     <ul className="links">
