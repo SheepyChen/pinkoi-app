@@ -1,10 +1,11 @@
-# 模仿Pinkoi介面的React demo
+# 模仿 Pinkoi 介面的 React demo
 
-Pinkoi商品頁面：https://www.pinkoi.com/product/7QaYMPbE
+Pinkoi 商品頁面：https://www.pinkoi.com/product/7QaYMPbE
 
-> 從無到有的建立react demo，並修改原始pinkoi的響應式設計，可搭配網站主題自行延伸建立其他商品頁。
+> 從無到有的建立 react demo，並修改原始 pinkoi 的響應式設計，可搭配網站主題自行延伸建立其他商品頁。
 
 **如何開始使用**
+
 ```javascript
 $ git clone https://github.com/SheepyChen/pinkoi-app
 $ cd pinkoi-app
@@ -12,41 +13,42 @@ $ npm install
 
 ```
 
-### 初始化npm
+### 初始化 npm
 
 ```javascript
-npm init 
+npm init
 ```
 
-### 安装react環境
+### 安装 react 環境
 
 - react ：主要框架
-- react-dom ：React的DOM
+- react-dom ：React 的 DOM
 
 ```javascript
 npm install --save react react-dom
 
 ```
 
-## 新增其他商品頁
+### 如需更換字型，請修改 index.html 引用路徑
 
-請切換新增其他 product 分支
-
-### 如需更換字型，請修改index.html引用路徑
 ```javascript
 <link rel="stylesheet" href="引用路徑">
 <link rel="stylesheet" href="./css/index.css">
 ```
 
-### 使用npm-gh-pages部署到github pages
+## 新增其他商品頁
+
+請切換新增其他 product 分支
+
+### 使用 npm-gh-pages 部署到 github pages
 
 下載 npm-gh-pages
+
 ```javascript
 npm install --save gh-pages
 npm run deploy
 ```
 
-### 目錄架構設計
-
 ### 過程遇到了什麼問題
 
+1.一開始著手切版過程中，會不知道該把 component 分到多小，然後在過程中慢慢觀察哪些是可以拆出來。 2.
