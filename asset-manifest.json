@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/pinkoi-app/static/css/main.e1eab41e.css",
-    "main.js": "/pinkoi-app/static/js/main.4ce06f41.js",
+    "main.css": "/pinkoi-app/static/css/main.61e57dab.css",
+    "main.js": "/pinkoi-app/static/js/main.3abbf6a0.js",
     "static/media/cookie.jpg": "/pinkoi-app/static/media/cookie.34c42c954c6f896850fa.jpg",
     "static/media/pinkoi.png": "/pinkoi-app/static/media/pinkoi.a02340564cbb8a9c1202.png",
     "static/media/bell-regular.svg": "/pinkoi-app/static/media/bell-regular.bbcf3762800ba0a718d192b9ad39e750.svg",
     "static/media/heart-regular.svg": "/pinkoi-app/static/media/heart-regular.74333953fd9b66ca381563a1501486f1.svg",
-    "static/media/cart-shopping-solid.svg": "/pinkoi-app/static/media/cart-shopping-solid.a337fd836212a2dccfd649b9870f35bf.svg",
     "index.html": "/pinkoi-app/index.html",
     "static/media/user-regular.svg": "/pinkoi-app/static/media/user-regular.ac273af38b1c02e815ff9a51e390c1ce.svg",
-    "main.e1eab41e.css.map": "/pinkoi-app/static/css/main.e1eab41e.css.map",
-    "main.4ce06f41.js.map": "/pinkoi-app/static/js/main.4ce06f41.js.map"
+    "main.61e57dab.css.map": "/pinkoi-app/static/css/main.61e57dab.css.map",
+    "main.3abbf6a0.js.map": "/pinkoi-app/static/js/main.3abbf6a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1eab41e.css",
-    "static/js/main.4ce06f41.js"
+    "static/css/main.61e57dab.css",
+    "static/js/main.3abbf6a0.js"
   ]
 }
