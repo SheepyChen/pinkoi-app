@@ -230,7 +230,7 @@ header .header-wrap .header-top .header-right .navbar .navbar-nav .nav-item .dro
 }
 
 header .sticky-nav {
-  z-index: 100;
+  z-index: 19;
   background-color: #fff;
   width: 100%;
   display: -webkit-box;
@@ -310,7 +310,7 @@ header .cate-bar ul li a {
 }
 
 header .cate-bar ul li .cate-items {
-  z-index: 200;
+  z-index: 15;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -333,7 +333,7 @@ header .cate-bar ul li .cate-items .cate-name:hover {
 @media screen and (max-width: 555px) {
   header .header-wrap .header-top {
     padding: 10px;
-    z-index: 100;
+    z-index: 18;
     background-color: #fff;
     position: fixed;
     top: 0;
