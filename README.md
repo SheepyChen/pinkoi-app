@@ -3,6 +3,7 @@
 Pinkoi 商品頁面：https://www.pinkoi.com/product/7QaYMPbE
 
 > 從無到有的建立 react demo，並修改原始 pinkoi 的響應式設計，可搭配網站主題自行延伸建立其他商品頁。
+> Demo 頁面：https://sheepychen.github.io/pinkoi-app/
 
 **如何開始使用**
 
@@ -10,22 +11,7 @@ Pinkoi 商品頁面：https://www.pinkoi.com/product/7QaYMPbE
 $ git clone https://github.com/SheepyChen/pinkoi-app
 $ cd pinkoi-app
 $ npm install
-
-```
-
-### 初始化 npm
-
-```javascript
-npm init
-```
-
-### 安装 react 環境
-
-- react ：主要框架
-- react-dom ：React 的 DOM
-
-```javascript
-npm install --save react react-dom
+$ npm run start
 
 ```
 
