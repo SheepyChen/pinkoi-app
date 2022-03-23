@@ -6,6 +6,7 @@ import CartButton from "./CartButton";
 import { RiMoneyEuroCircleFill } from "react-icons/ri";
 import StickNavbar from "./StickNavbar";
 import MobileNav from "./MobileNav";
+import { Link } from "react-router-dom";
 
 function Nav(props) {
   return (
@@ -15,7 +16,15 @@ function Nav(props) {
         <NavItem icon={<UserIcon />}>
           <DropdownMenu />
         </NavItem>
-        <NavItem icon={<HeartIcon />} />
+
+        <NavItem
+          icon={
+            <Link to="/like">
+              <HeartIcon />
+            </Link>
+          }
+        ></NavItem>
+
         <NavItem icon={<BellIcon />} />
         <NavItem icon={<CartButton onClick={props.onShowCart} />} />
       </Navbar>
@@ -37,9 +46,9 @@ function NavItem(props) {
   const [open, setOpen] = useState(false);
   return (
     <li className="nav-item">
-      <a href="#" className="icon-button" onClick={() => setOpen(!open)}>
+      <div className="icon-button" onClick={() => setOpen(!open)}>
         {props.icon}
-      </a>
+      </div>
       {open && props.children}
     </li>
   );

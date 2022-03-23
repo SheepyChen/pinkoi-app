@@ -600,6 +600,7 @@ footer .footer-bottom .right .right-lan i {
 }
 
 .pictures .picture .imageContainer {
+  position: relative;
   overflow: hidden;
   width: 13vw;
   height: 13vw;
@@ -1473,8 +1474,19 @@ h2 {
   }
 }
 
-.like-icon {
-  width: 20px;
+button.like-icon {
+  background-color: transparent;
+  border: #bfbfc1 2px solid;
+  z-index: 5;
+  border: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  fill: rgba(0, 0, 0, 0.4);
+}
+
+button.like-icon:hover {
+  fill: #39393e;
 }
 
 .cart-icon {

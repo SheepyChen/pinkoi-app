@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Like from "./Like";
+import Picture from "./Picture";
+
 const RecommandProduct = () => {
   let [data, setData] = useState(null);
   let [page, setPage] = useState(1);
@@ -46,20 +47,7 @@ const RecommandProduct = () => {
       <div className="pictures">
         {data &&
           data.map((d) => {
-            return (
-              <div className="picture">
-                <a target="_blank" href={d.src.large}>
-                  <div className="imageContainer">
-                    <img src={d.src.large} alt="" />
-                  </div>
-
-                  <p className="product-title">{d.alt}</p>
-                </a>
-                <Like />
-                <p className="product-description">{d.photographer}</p>
-                <p className="product-price">NT${d.width}</p>
-              </div>
-            );
+            return <Picture data={d} />;
           })}
       </div>
       <div className="morePicture">
